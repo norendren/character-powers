@@ -207,39 +207,41 @@ def generate_power_html(power):
     html = f'        <div class="power">\n'
     html += f'            <div class="power-name">{power["name"]}</div>\n'
     
-    power_set = power.get('power_set') or 'None'
-    html += f'            <div class="power-detail"><strong>Power Set:</strong> {power_set}</div>\n'
+    # power_set = power.get('power_set') or 'None'
+    # html += f'            <div class="power-detail"><strong>Power Set:</strong> {power_set}</div>\n'
     
-    prereqs = power.get('prerequisites', {})
-    if prereqs and prereqs.get('powers'):
-        html += f'            <div class="power-detail"><strong>Prerequisites:</strong> {", ".join(prereqs["powers"])}</div>\n'
+    # prereqs = power.get('prerequisites', {})
+    # if prereqs and prereqs.get('powers'):
+    #     html += f'            <div class="power-detail"><strong>Prerequisites:</strong> {", ".join(prereqs["powers"])}</div>\n'
     
-    if prereqs and prereqs.get('rank'):
-        html += f'            <div class="power-detail"><strong>Rank:</strong> {prereqs["rank"]}</div>\n'
-    
-    duration = power.get('duration')
-    if duration and duration.lower() != 'permanent':
-        html += f'            <div class="power-detail"><strong>Duration:</strong> {duration}</div>\n'
+    # if prereqs and prereqs.get('rank'):
+    #     html += f'            <div class="power-detail"><strong>Rank:</strong> {prereqs["rank"]}</div>\n'
     
     action = power.get('action')
     if action and 'permanent' not in action.lower():
         html += f'            <div class="power-detail"><strong>Action:</strong> {action}</div>\n'
-    
-    trigger = power.get('trigger')
-    if trigger:
-        html += f'            <div class="power-detail"><strong>Trigger:</strong> {trigger}</div>\n'
-    
+
     cost = power.get('cost')
     if cost:
         html += f'            <div class="power-detail"><strong>Cost:</strong> {cost}</div>\n'
+
+    trigger = power.get('trigger')
+    if trigger:
+        html += f'            <div class="power-detail"><strong>Trigger:</strong> {trigger}</div>\n'
+
+    duration = power.get('duration')
+    if duration and duration.lower() != 'permanent':
+        html += f'            <div class="power-detail"><strong>Duration:</strong> {duration}</div>\n'
     
     range_val = power.get('range')
     if range_val:
         html += f'            <div class="power-detail"><strong>Range:</strong> {range_val}</div>\n'
     
-    effect = power.get('effect')
+    effect = power.get('short_effect')
     if effect:
-        html += f'            <div class="power-detail"><strong>Effect:</strong> {effect}</div>\n'
+        # Replace newlines with HTML line breaks for proper formatting
+        effect_html = effect.replace('\n', '<br>\n            ')
+        html += f'            <div class="power-detail"><strong>Effect:</strong> {effect_html}</div>\n'
     
     html += '        </div>\n'
     return html

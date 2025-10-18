@@ -1,0 +1,209 @@
+{
+  "Swap Status": {
+    "short_effect": "Swap entire or selected status (Lost Health/Focus, Conditions, Occupation, Traits, Tags) with a visible target within range\n5 Focus cost\nReverts when effect ends, with extreme caution required"
+  },
+  "Understand Sign Language": {
+    "short_effect": "Logic vs. TN 13 to understand new sign language (edge if know related language)\nFantastic: Permanent understanding"
+  },
+  "Understand Spoken Language": {
+    "short_effect": "Logic vs. TN 13 to understand new spoken language (edge if know related language)\nFantastic: Permanent understanding"
+  },
+  "Understand Written Language": {
+    "short_effect": "Logic vs. TN 13 to read/write new written language (edge if know related language)\nFantastic: Permanent understanding"
+  },
+  "Wish You Luck": {
+    "short_effect": "Ally in line of sight gains edge on all checks\nPay Focus at start of each turn to maintain"
+  },
+  "Never Surrender": {
+    "short_effect": "Target within reach functions normally at 0 Focus (not demoralized, no trouble)\nCannot spend Focus; can still be shattered\nEnds when Focus >0 or effect ends (then demoralized if still 0)"
+  },
+  "Real Jinx": {
+    "short_effect": "All who attempt to harm you by direct action have trouble\nDoes not stack"
+  },
+  "Restore": {
+    "short_effect": "Ego vs. TN 20 to restore shattered target\n• Success: Target to 1 Focus (Fantastic: full Focus)\nYou reduced to 1 Focus on success"
+  },
+  "Resurrect": {
+    "short_effect": "Touch dead target (relatively intact)\nEgo vs. TN 10+1 per hour dead\n• Success: Target to 1 Health (Fantastic: full Health)\nYou reduced to 1 Focus on success"
+  },
+  "Soothing Touch": {
+    "short_effect": "Touch target to restore Focus\n1 Focus per Focus spent (10 Focus minimum)"
+  },
+  "Charmed Life": {
+    "short_effect": "Edge on one action check per round\nDoes not stack"
+  },
+  "Cure-All": {
+    "short_effect": "Touch target: Ego vs. TN 11\n• Success: End ailment immediately\n• Fantastic: Recovery check, gain Health/Focus back\nAffects temporary conditions (ablaze, bleeding, blinded, etc.)\nNot chronic/serious diseases"
+  },
+  "Evil Eye": {
+    "short_effect": "Foe in line of sight has trouble on all checks\nPay Focus at start of each turn to maintain"
+  },
+  "Indecipherable": {
+    "short_effect": "Think in unique internal language\nImmune to Mind Reading/Interrogation"
+  },
+  "Intuition": {
+    "short_effect": "Get feeling about which choice is best for you long-term\nNarrator tells you which choice"
+  },
+  "Jinx You All": {
+    "short_effect": "Foes (1 per rank) in line of sight have trouble on all checks\nPay Focus at start of each turn to maintain"
+  },
+  "Let's Go": {
+    "short_effect": "Target within reach at -1 Health remains awake/mobile (movement only, no reactions/standard actions)\nNot protected from death\nEnds when Health >0 or effect ends (then unconscious if still ≤-1)"
+  },
+  "Lucky Me": {
+    "short_effect": "Edge on all your checks\nPay Focus at start of each turn to maintain"
+  },
+  "Lucky Us": {
+    "short_effect": "You + allies (1 per rank) in line of sight gain edge on all checks\nPay Focus at start of each turn to maintain"
+  },
+  "Lucky You": {
+    "short_effect": "Touched ally gains edge on all checks"
+  },
+  "Always Ready": {
+    "short_effect": "+1 reaction per round (can only use for Martial Arts powers)"
+  },
+  "Battle Plan": {
+    "short_effect": "Allies in earshot (up to Vigilance) gain edge on all checks until start of your next turn"
+  },
+  "Change of Plans": {
+    "short_effect": "Ally gains edge on that action check"
+  },
+  "Clone Moves": {
+    "short_effect": "Duplicate target's Special Training powers (10 spaces, line of sight)\n• Cost: Highest power cost or 5 Focus minimum\n• Use copied powers normally (paying costs)"
+  },
+  "Clone Powers": {
+    "short_effect": "Duplicate all target powers (10 spaces)\n• Cost: Highest power cost or 15 Focus minimum\n• Use copied powers normally (paying costs)"
+  },
+  "Combat Support": {
+    "short_effect": "Once per battle: Ally in earshot auto-rolls 1 on Marvel die (unaffected by trouble) before start of your next turn"
+  },
+  "Copy Ability": {
+    "short_effect": "Duplicate one ability score from target (10 spaces)\nUse theirs in place of yours"
+  },
+  "Copy Power": {
+    "short_effect": "Duplicate one power from target (10 spaces)\nUse as if always yours (pay costs)"
+  },
+  "Copy Trait": {
+    "short_effect": "Duplicate one trait from target (10 spaces)\nUse as if always yours"
+  },
+  "Darkness": {
+    "short_effect": "Inky darkness (5 spaces/rank wide, within 50 spaces)\nNo vision except power-generated lights\nMust stay within 50 spaces to maintain"
+  },
+  "Disrupt Electronics": {
+    "short_effect": "When phasing through electronics: Scramble them (shut down/crash)\nTech Reliant powers unusable 1 turn (reboot)"
+  },
+  "Do This All Day": {
+    "short_effect": "Heal 2 Health per Focus spent"
+  },
+  "Elemental Form": {
+    "short_effect": "Body made of element; steady supply; unkillable\nAt 0 Health: Form falls apart; re-form when ≥1 Health\nUse Plasticity for unusual body uses; Shape-Shift to be human"
+  },
+  "Extended Reach 1": {
+    "short_effect": "Reach × 4"
+  },
+  "Extended Reach 2": {
+    "short_effect": "Reach × 10"
+  },
+  "Flexible Fingers": {
+    "short_effect": "Auto-pick locks requiring physical key\nShape hands into simple tools"
+  },
+  "Focus Fire": {
+    "short_effect": "Allies in earshot (up to Vigilance) gain edge on all checks vs. called enemy (line of sight)"
+  },
+  "Grand Mirage": {
+    "short_effect": "Full-sensory mirage for everyone in Telepathic Network (same locale)\nMoves freely"
+  },
+  "Grow 1": {
+    "short_effect": "Grow to Huge size\nReturn to normal at will"
+  },
+  "Grow 2": {
+    "short_effect": "Grow to Gigantic size\nReturn to normal at will"
+  },
+  "Grow 3": {
+    "short_effect": "Grow to Titanic size\nReturn to normal at will"
+  },
+  "Grow 4": {
+    "short_effect": "Grow to Gargantuan size\nReturn to normal at will"
+  },
+  "Illumination": {
+    "short_effect": "Bright light on object/point (line of sight, 50 spaces)\nMaintain even if out of range/sight"
+  },
+  "Information Upload": {
+    "short_effect": "Transmit trait/tag/knowledge to telepathic link target (willing or not)\nLasts until target sleeps"
+  },
+  "Inspiration": {
+    "short_effect": "Ally in earshot gains edge on all checks until start of your next turn"
+  },
+  "Instant Replay": {
+    "short_effect": "Once per battle: Retry failed check (erase first attempt)"
+  },
+  "Keep Moving": {
+    "short_effect": "End demoralized or stunned condition"
+  },
+  "Lightning Actions": {
+    "short_effect": "+1 standard action and +1 reaction per turn\nTurn Marvel die to Fantastic on initiative checks"
+  },
+  "Mirage": {
+    "short_effect": "Full-sensory mirage for telepathic link target\nMoves freely"
+  },
+  "On Your Feet": {
+    "short_effect": "All prone allies in earshot (who are able) stand up for free"
+  },
+  "Phase Object": {
+    "short_effect": "Make touched object intangible (up to rank sizes bigger than you)"
+  },
+  "Phase Self": {
+    "short_effect": "You and clothing become intangible\nMove through anything; nothing affects you; can't affect anything"
+  },
+  "Quick Phase": {
+    "short_effect": "You and clothing instantly become intangible"
+  },
+  "Regain Focus": {
+    "short_effect": "Recover Focus = Vigilance"
+  },
+  "Resize Object": {
+    "short_effect": "Grow/shrink object within reach (as much as your Grow/Shrink power allows)"
+  },
+  "Resize Other": {
+    "short_effect": "Grow/shrink touched person and clothing (as much as your Grow/Shrink power allows)\nMust grab unwilling target"
+  },
+  "Rubberneck": {
+    "short_effect": "Move head away from body (up to reach) to establish line of sight"
+  },
+  "Run on Water": {
+    "short_effect": "Skip across water surface while running\nDon't sink as long as you keep running"
+  },
+  "Shrink 1": {
+    "short_effect": "Shrink to Little size\nReturn to normal at will"
+  },
+  "Shrink 2": {
+    "short_effect": "Shrink to Tiny size\nReturn to normal at will"
+  },
+  "Shrink 3": {
+    "short_effect": "Shrink to Miniature size\nReturn to normal at will"
+  },
+  "Shrink 4": {
+    "short_effect": "Shrink to Microscopic size\nReturn to normal at will"
+  },
+  "Silence Area": {
+    "short_effect": "Silence (5 spaces/rank wide, within 50 spaces)\nNo sound in/out\nMust stay within 50 spaces to maintain"
+  },
+  "Silence Self": {
+    "short_effect": "Make no noise (unless you wish)\nEdge on Agility to sneak; enemies have trouble on Vigilance vs. you"
+  },
+  "Slip Free": {
+    "short_effect": "Not grabbed or pinned"
+  },
+  "Spider-Pheromones": {
+    "short_effect": "Edge on Ego (intimidation) vs. those not attracted to your gender\nEdge on Ego (persuasion) vs. those attracted to your gender"
+  },
+  "Time-Out": {
+    "short_effect": "Freeze time for everyone but you\nEveryone else frozen while you act normally"
+  },
+  "Time-Out Bubble": {
+    "short_effect": "Time bubble: You + chosen allies (1 space/rank) act normally\nEveryone else frozen"
+  },
+  "Time-Out Tag": {
+    "short_effect": "Freeze time for one person/thing within reach (must grab unwilling)\nEveryone else acts normally"
+  }
+}
