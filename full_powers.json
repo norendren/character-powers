@@ -2336,7 +2336,7 @@
       "short_effect": "Ranged attack with edge (line of sight, 10 spaces)\n+1 Agility damage per 2 Focus spent\n\u2022 Success: Total damage\n\u2022 Fantastic: 2\u00d7 damage and special effect"
     },
     "Elemental Burst": {
-      "name": "Elemental Burs/*  */t",
+      "name": "Elemental Burst",
       "description": "The character fires a burst of their element.",
       "power_set": "Elemental Control",
       "prerequisites": {
