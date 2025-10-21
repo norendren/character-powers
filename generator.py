@@ -256,53 +256,62 @@ def generate_html_sheet(character_name, categories):
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{character_name} - Power Reference Sheet</title>
     <style>
-        body {{
+        @page {{
+            margin: 0.25in;
+        }}
+
+    body {{
             font-family: 'Times New Roman', serif;
             font-size: 10pt;
-            margin: 0.5in;
+            margin: 0.25in;
             line-height: 1.3;
-        }}
-        h1 {{
+    }}
+    h1 {{
             text-align: center;
-            font-size: 16pt;
-            margin-bottom: 0.2in;
+            font-size: 13pt;
+            margin-top: 0.05in;
+            margin-bottom: 0.12in;
             border-bottom: 2px solid black;
-            padding-bottom: 5px;
-        }}
-        h2 {{
+            padding-bottom: 4px;
+    }}
+    h2 {{
             font-size: 12pt;
             margin-top: 0.15in;
             margin-bottom: 0.1in;
             border-bottom: 1px solid black;
             padding-bottom: 2px;
-        }}
-        .columns {{
+    }}
+    .columns {{
             column-count: 2;
             column-gap: 0.3in;
-        }}
-        .power {{
+    }}
+    .power {{
             break-inside: avoid;
             margin-bottom: 0.15in;
             page-break-inside: avoid;
-        }}
-        .power-name {{
+    }}
+    .power-name {{
             font-weight: bold;
             font-size: 11pt;
             margin-bottom: 3px;
-        }}
-        .power-detail {{
+    }}
+    .power-detail {{
             margin-left: 0.1in;
             margin-bottom: 2px;
-        }}
+    }}
         @media print {{
             body {{
-                margin: 0.5in;
+                margin: 0.2in;
+            }}
+            h1 {{
+                font-size: 13pt;
+                margin-top: 0;
             }}
         }}
     </style>
 </head>
 <body>
-    <h1>{character_name.upper()} - Power Reference Sheet</h1>
+    <h1>{character_name.upper()} - Power Reference</h1>
 '''
     
     # Permanent powers
