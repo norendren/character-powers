@@ -260,45 +260,45 @@ def generate_html_sheet(character_name, categories):
             margin: 0.25in;
         }}
 
-    body {{
+        body {{
             font-family: 'Times New Roman', serif;
             font-size: 10pt;
             margin: 0.25in;
             line-height: 1.3;
-    }}
-    h1 {{
+        }}
+        h1 {{
             text-align: center;
             font-size: 13pt;
             margin-top: 0.05in;
             margin-bottom: 0.12in;
             border-bottom: 2px solid black;
             padding-bottom: 4px;
-    }}
-    h2 {{
+        }}
+        h2 {{
             font-size: 12pt;
             margin-top: 0.15in;
             margin-bottom: 0.1in;
             border-bottom: 1px solid black;
             padding-bottom: 2px;
-    }}
-    .columns {{
+        }}
+        .columns {{
             column-count: 2;
             column-gap: 0.3in;
-    }}
-    .power {{
+        }}
+        .power {{
             break-inside: avoid;
             margin-bottom: 0.15in;
             page-break-inside: avoid;
-    }}
-    .power-name {{
+        }}
+        .power-name {{
             font-weight: bold;
             font-size: 11pt;
             margin-bottom: 3px;
-    }}
-    .power-detail {{
+        }}
+        .power-detail {{
             margin-left: 0.1in;
             margin-bottom: 2px;
-    }}
+        }}
         @media print {{
             body {{
                 margin: 0.2in;
